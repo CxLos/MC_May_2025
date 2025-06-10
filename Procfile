@@ -1,0 +1,1 @@
+web: gunicorn mcmayr_25:server
