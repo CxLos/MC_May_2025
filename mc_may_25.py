@@ -378,7 +378,7 @@ person_pie=px.pie(
 
 df_activity_status = df.groupby('Activity Status').size().reset_index(name='Count')
 
-print("Activity Status Unique Before: \n", df_activity_status['Activity Status'].unique().tolist())
+# print("Activity Status Unique Before: \n", df_activity_status['Activity Status'].unique().tolist())
 
 # exclude null values:
 df_activity_status = df_activity_status[df_activity_status['Activity Status'].notnull()]
